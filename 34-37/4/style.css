@@ -1,0 +1,24 @@
+p {
+    background-color: #eee;
+    padding: 15px 15px 15px 60px;
+    border-right: 4px solid #f44336;
+    font-family: sans-serif;
+    width: 400px;
+    margin: 10px auto;
+    position: relative;
+    counter-increment: numbering;
+}
+
+p::before {
+    content: counter(numbering);
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    padding: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

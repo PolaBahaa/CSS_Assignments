@@ -1,0 +1,38 @@
+.parent {
+    background-color: #eee;
+    font-family: sans-serif;
+    font-weight: bold;
+    max-width: 800px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.c1, .c2, .c3, .c4 {
+    background-color: #d4d4d4;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.c1 {
+    width: calc(100% - 30px);
+}
+
+.c2 {
+    width: calc((100% - 60px)/3);
+}
+
+.c3 {
+    width: calc((100% - 45px)/2);
+}
+
+.c4 {
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15px;
+}

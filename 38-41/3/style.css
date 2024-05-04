@@ -1,0 +1,70 @@
+.parent {
+    width: 550px;
+    height: fit-content;
+    margin: 20px auto;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.box1, .box2 {
+    background-color: #eee;
+    padding: 20px 20px 0;
+    margin: 20px;
+    width: 200px;
+}
+
+.button {
+    background-color: #03a9f4;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.circle {
+    background-color: #ddd;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    font-size: 40px;
+    line-height: 5;
+}
+
+.line {
+    background-color: #03a9f4;
+    margin: 20px;
+    width: 1px;
+    height: 298px;
+    left: 265px;
+}
+
+.or {
+    background-color: #03a9f4;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    width: 14px;
+    height: 14px;
+    left: 273px;
+    top: 156px;
+}
+
+.box1, .box2, .line, .or {
+    float: left;
+    position: absolute;
+}
+
+.box1 {
+    top: 0;
+    left: 0;
+}
+
+.box2 {
+    top: 0;
+    left: 290px;
+}

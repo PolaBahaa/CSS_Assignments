@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --teal: #009688
+}
+
+h1 {
+  background-color: var(--teal);
+  color: white;
+  width: 150px;
+  margin: 80px auto;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  display: grid;
+  position: relative;
+}
+
+h1::after,
+h1::before {
+  content: "";
+  background-color: var(--teal);
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+h1::before {
+  width: 100%;
+  transform: skew(20deg) translate(-20px);
+}
+
+h1::after {
+  width: 20px;
+  transform: skew(20deg) translate(-45px);
+}

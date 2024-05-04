@@ -1,0 +1,25 @@
+div {
+    background-color: #eee;
+    width: 380px;
+    outline: 10px solid #eee;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.e1 {
+    border-left: 5px solid red;
+}
+
+.e2 {
+    visibility: hidden;
+}
+
+.e3 {
+    border-left: 5px solid green;
+}
+
+

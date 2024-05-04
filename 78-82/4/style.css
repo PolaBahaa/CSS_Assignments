@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body > [title]:not(.no-need) {
+  color: red;
+  font-weight: bold;
+}
+
+/* or */
+[title]:not(.no-need, .parent div) {
+  color: red;
+  font-weight: bold;
+}

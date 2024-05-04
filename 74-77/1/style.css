@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div, div::after, div::before {
+  border-radius: 50%;
+  border: 5px solid;
+}
+
+div {
+  width: 50px;
+  height: 50px;
+  border-color: #fc2455;
+  border-left-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+div::before {
+  content: "";
+  width: calc(100% + 2*2px + 2*5px);
+  height: calc(100% + 2*2px + 2*5px);
+  border-color: #2490ff;
+  border-right-color: transparent;
+  position: absolute;
+}
+
+div::after {
+  content: "";
+  width: calc(100% + 4*2px + 4*5px);
+  height: calc(100% + 4*2px + 4*5px);
+  border-color: #fcb400;
+  border-bottom-color: transparent;
+  position: absolute;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div:hover {
+  animation-play-state: paused;
+}

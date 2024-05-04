@@ -1,0 +1,25 @@
+/* rem هو الروت ايليمنت اللي الديفات هتعتمدعليه لما نستخدم وحدة (html) 
+لذلك هنخلي حجم الفونت 20 بيكسل ونعتمد عليه */
+
+html {
+    font-size: 20px;
+}
+
+.s1, .s2, .s3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.s1 {
+    font-size: 2.5rem;
+}
+
+.s2 {
+    font-size: 2rem;
+}
+
+.s3 {
+    font-size: 1.5rem;
+}

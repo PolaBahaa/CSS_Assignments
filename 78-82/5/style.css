@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div:nth-child(2) div {
+  color: red;
+  font-weight: bold;
+}
+
+/* or */
+div:nth-child(2) > div {
+  color: red;
+  font-weight: bold;
+}
+
+/* or */
+div:nth-child(2) [title] {
+  color: red;
+  font-weight: bold;
+}
+
+/* or */
+body > div:nth-child(2) [title] {
+  color: red;
+  font-weight: bold;
+}
+
+

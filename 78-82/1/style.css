@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.main.red {
+  color: red;
+  font-weight: bold;
+}
+
+/* or */
+div[class="main red"] {
+  color: red;
+  font-weight: bold;
+}

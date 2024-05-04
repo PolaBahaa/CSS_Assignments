@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  background-color: #eee;
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 10px;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  left: -10px ;
+  background-image:
+    linear-gradient(
+        to right,
+        #f44336 20%,
+        #2196f3 20%,
+        #2196f3 40%,
+        #4caf50 40%,
+        #4caf50 60%,
+        #e91e63 60%,
+        #e91e63 80%,
+        #673ab7 80%
+    );
+}
+
+div::first-letter {
+  color: #f44336;
+}

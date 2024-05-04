@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent:nth-child(2) {
+  color: red;
+  font-weight: bold;
+}

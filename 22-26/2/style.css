@@ -1,0 +1,17 @@
+div {
+    font-size: 80px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.s1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;}
+
+.s2 {
+    font-family: 'Cairo', sans-serif;
+}
+
+.s3 {
+    font-family: 'Jomhuria', serif;
+}

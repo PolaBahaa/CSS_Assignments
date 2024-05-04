@@ -1,0 +1,28 @@
+.parent {
+    width: 400px;
+    height: 150px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    background-color: #f2f2f4;
+    transition-duration: 0.5s;
+}
+
+.child {
+    background-color: #dededc;
+    margin: 20px;
+    padding: 20px;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.parent:hover {
+    margin-top: 0;
+}
+
+.parent:hover .child {
+    margin-top: 40px;
+}
